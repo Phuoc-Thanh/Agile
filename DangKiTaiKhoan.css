@@ -1,0 +1,86 @@
+.button-ng-k {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-khaki);
+  width: 300px;
+  height: 100px;
+}
+.ng-k {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 63px);
+  font-weight: 300;
+}
+.button-dang-ki,
+.label-nhap-lai-mat-khau-moi {
+  position: absolute;
+  top: 899px;
+  left: 159px;
+  width: 300px;
+  height: 100px;
+}
+.label-nhap-lai-mat-khau-moi {
+  top: 61px;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1110px;
+}
+.nhp-li-mt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 300;
+}
+.email,
+.mat-khau,
+.nhap-lai-mat-khau,
+.tai-khoan {
+  position: absolute;
+  top: 718px;
+  left: 159px;
+  width: 1110px;
+  height: 161px;
+}
+.email,
+.mat-khau,
+.tai-khoan {
+  top: 537px;
+}
+.email,
+.tai-khoan {
+  top: 356px;
+}
+.tai-khoan {
+  top: 175px;
+}
+.ng-k-ti {
+  position: absolute;
+  top: calc(50% - 38px);
+  left: calc(50% - 261px);
+}
+.thanh-dang-ki-tai-khoan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lightgreen);
+  width: 1440px;
+  height: 150px;
+  overflow: hidden;
+  font-size: var(--font-size-45xl);
+}
+.dang-ki-tai-khoan {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

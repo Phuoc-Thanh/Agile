@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./PageNgNhp.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-ng-nhp">
+      <div class="thanh-logo-trng">
+        <img class="image-1-icon3" alt="" src="./public/image-11@2x.png" />
+      </div>
+      <div class="form-ng-nhp">
+        <div class="form-ng-nhp1"></div>
+        <img class="nh-niie-icon" alt="" src="./public/nh-niie@2x.png" />
+
+        <div class="label-ng-nhp">
+          <div class="ng-nhp"></div>
+          <div class="nhp-ton-khon">Nhập toàn khoản</div>
+        </div>
+        <div class="label-mt-khu">
+          <div class="label-mt-khu-child"></div>
+          <div class="nhp-mt-khu">Nhập mật khẩu</div>
+        </div>
+        <div class="qun-mt-khu1" id="qunMtKhu">Quên mật khẩu</div>
+        <div class="button-ng-nhp" id="buttonNgNhp">
+          <div class="rounded-rectangle"></div>
+          <div class="ng-nhp1">Đăng nhập</div>
+        </div>
+        <div class="button-ng-nhp1" id="buttonNgNhp1">
+          <img
+            class="rounded-rectangle-icon"
+            alt=""
+            src="./public/rounded-rectangle.svg"
+          />
+
+          <div class="ng-k1">Đăng kí</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var qunMtKhu = document.getElementById("qunMtKhu");
+      if (qunMtKhu) {
+        qunMtKhu.addEventListener("click", function (e) {
+          window.location.href = "./QuenMatKhau.html";
+        });
+      }
+      
+      var buttonNgNhp = document.getElementById("buttonNgNhp");
+      if (buttonNgNhp) {
+        buttonNgNhp.addEventListener("click", function (e) {
+          window.location.href = "./TrangCh.html";
+        });
+      }
+      
+      var buttonNgNhp1 = document.getElementById("buttonNgNhp1");
+      if (buttonNgNhp1) {
+        buttonNgNhp1.addEventListener("click", function (e) {
+          window.location.href = "./DangKiTaiKhoan.html";
+        });
+      }
+      </script>
+  </body>
+</html>

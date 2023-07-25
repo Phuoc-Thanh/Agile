@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="khoa-hoc-cua-toi">
+      <div class="thanh-trang-tim-kiem">
+        <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+
+        <div class="thanh-tiu">
+          <div class="button-tm-kim" id="buttonTmKim">
+            <div class="tm-kim">Tìm kiếm</div>
+          </div>
+          <div class="button-tm-kim" id="buttonTrangChu">
+            <div class="trang-ch">Trang chủ</div>
+          </div>
+          <div class="button-khoa-hoc-cua-toi">
+            <div class="kho-hc-ca">Khoá học của tôi</div>
+          </div>
+        </div>
+        <div class="ho-so1">
+          <img class="phbell-icon" alt="" src="./public/phbell.svg" />
+
+          <div class="button-ho-so">
+            <div class="icon-ho-so">
+              <img class="ho-so-icon" alt="" src="./public/ho-so.svg" />
+
+              <div class="tt">TT</div>
+            </div>
+            <img class="icon-mui-ten" alt="" src="./public/icon-mui-ten.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="button-va-thanh-search-parent">
+        <div class="button-va-thanh-search">
+          <div class="thanh-search"></div>
+          <div class="tm-kim-cc">Tìm kiếm các khoá học</div>
+          <img
+            class="button-tim-kiem"
+            alt=""
+            src="./public/button-tim-kiem.svg"
+          />
+        </div>
+        <div class="label-all">
+          <div class="all-parent">
+            <div class="all"></div>
+            <div class="all-group">
+              <div class="all1">ALL</div>
+              <img
+                class="icon-mui-ten1"
+                alt=""
+                src="./public/icon-mui-ten.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="khoa-hoc-cua-toi-child"></div>
+      <div class="label-khoa-hoc-cua-toi1">
+        <div class="label-khoa-hoc-cua-toi1-child"></div>
+        <div class="label-khoa-hoc-cua-toi1-item"></div>
+        <div class="cng-ngh-m">Công nghệ đám mây_20BITV02_100107463602</div>
+        <div class="ging-vin-mai-container">
+          <span>Giảng viên:</span>
+          <span class="mai-vn-phng"> Mai Vân Phương Vũ</span>
+        </div>
+      </div>
+      <div class="label-khoa-hoc-cua-toi11">
+        <div class="label-khoa-hoc-cua-toi1-inner"></div>
+        <div class="label-khoa-hoc-cua-toi1-item"></div>
+        <div class="kin-trc-phn">Kiến trúc Phần mềm_20BITV01_100107627301</div>
+        <div class="ging-vin-trn-container">
+          <span>Giảng viên:</span>
+          <span class="mai-vn-phng"> Trần Đức Tâm</span>
+        </div>
+      </div>
+      <div class="label-khoa-hoc-cua-toi12">
+        <div class="label-khoa-hoc-cua-toi1-child1"></div>
+        <div class="label-khoa-hoc-cua-toi1-item"></div>
+        <div class="m-hnh-pht">
+          Mô hình phát triển phần mềm Agile_20BITV02_100107627402
+        </div>
+        <div class="ging-vin-trn-container1">
+          <span>Giảng viên:</span>
+          <span class="mai-vn-phng"> Trần Thanh Nhã</span>
+        </div>
+      </div>
+      <div class="cc-kho-hc">Các khoá học của tôi</div>
+      <div class="thanh-tuy-chon1">
+        <div class="thanh-tuy-chon2"></div>
+        <div class="ho-so2">
+          <div class="h-s1">Hồ sơ</div>
+        </div>
+        <div class="diem1">
+          <div class="h-s1">Điểm</div>
+        </div>
+        <div class="lich1">
+          <div class="h-s1">Lịch</div>
+        </div>
+        <div class="tuy-chon1">
+          <div class="h-s1">Tuỳ chọn</div>
+        </div>
+        <div class="ngon-ngu1">
+          <div class="h-s1">Ngôn ngữ</div>
+        </div>
+        <div class="thot2" id="thotContainer">
+          <div class="h-s1">Thoát</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var buttonTmKim = document.getElementById("buttonTmKim");
+      if (buttonTmKim) {
+        buttonTmKim.addEventListener("click", function (e) {
+          window.location.href = "./TimKiem.html";
+        });
+      }
+      
+      var buttonTrangChu = document.getElementById("buttonTrangChu");
+      if (buttonTrangChu) {
+        buttonTrangChu.addEventListener("click", function (e) {
+          window.location.href = "./TrangCh.html";
+        });
+      }
+      
+      var thotContainer = document.getElementById("thotContainer");
+      if (thotContainer) {
+        thotContainer.addEventListener("click", function (e) {
+          window.location.href = "./PageNgNhp.html";
+        });
+      }
+      </script>
+  </body>
+</html>
